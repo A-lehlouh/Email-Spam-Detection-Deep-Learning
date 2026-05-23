@@ -1,10 +1,10 @@
-# 📧 Email Spam Detection using Deep Learning
+#  Email Spam Detection using Deep Learning
 
 A deep learning project that detects spam emails using LSTM and Bidirectional LSTM models. The project compares four model variants — training from scratch vs. using pre-trained GloVe word embeddings — and evaluates them using multiple metrics.
 
 ---
 
-## 📁 Dataset
+##  Dataset
 
 - **File:** `Emails.csv`
 - **Columns:** `text` (email content), `spam` (label: 1 = spam, 0 = not spam)
@@ -12,7 +12,7 @@ A deep learning project that detects spam emails using LSTM and Bidirectional LS
 
 ---
 
-## 🔧 Project Pipeline
+##  Project Pipeline
 
 1. **Load & Explore Data** — preview with `head()`, `tail()`, `describe()`
 2. **Label Encoding** — convert labels to binary (0 / 1)
@@ -25,7 +25,7 @@ A deep learning project that detects spam emails using LSTM and Bidirectional LS
 
 ---
 
-## 🧠 Models
+##  Models
 
 | Model | Architecture | Embeddings |
 |-------|-------------|------------|
@@ -36,7 +36,7 @@ A deep learning project that detects spam emails using LSTM and Bidirectional LS
 
 ---
 
-## 📊 Evaluation Metrics
+##  Evaluation Metrics
 
 Each model is evaluated on the test set using:
 - **Accuracy**
